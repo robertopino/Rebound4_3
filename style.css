@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right, green, red);
+}
+main {
+    background: #fff;
+    margin-top: 20px;
+    width: 80%;
+    margin-inline: auto;
+    border-radius: 1%;
+}
+
+.precioBase {
+    display: flex;
+    gap: 300px;
+}
+
+.ingredientesExtras {
+    display: flex;
+    gap: 240px;
+}
+
+.propina {
+    display: flex;
+   justify-content: between;
+}
